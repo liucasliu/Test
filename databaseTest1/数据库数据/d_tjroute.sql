@@ -1,0 +1,10 @@
+INSERT INTO `d_tjroute` VALUES (1, '北京三日游', '2020.6.20-2020.6.23', 1200);
+INSERT INTO `d_tjroute` VALUES (2, '澳门三日游', '2020.6.2-2020.6.5', 3000);
+INSERT INTO `d_tjroute` VALUES (3, '内蒙古三日游', '2020.6.2-2020.6.5', 2800);
+INSERT INTO `d_tjroute` VALUES (4, '香港三日游', '2020.6.10-2020.6.13', 4000);
+INSERT INTO `d_tjroute` VALUES (5, '日本三日游', '2020.6.1-2020.6.4', 12000);
+INSERT INTO `d_tjroute` VALUES (6, '澳州三日游', '2020.6.4-2020.6.11', 11000);
+INSERT INTO `d_tjroute` VALUES (7, '上海三日游', '2020.6.12-2020.6.15', 5000);
+INSERT INTO `d_tjroute` VALUES (8, '英国三日游', '2020.6.21-2020.6.22', 10000);
+INSERT INTO `d_tjroute` VALUES (9, '法国三日游', '2020.6.20-2020.6.22', 9999);
+INSERT INTO `d_tjroute` VALUES (10, '韩国三日游', '2020.6.11-2020.6.13', 8000);

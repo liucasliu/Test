@@ -1,0 +1,10 @@
+INSERT INTO `d_tourist` VALUES (1, '王五', '男', '15562654458', 1);
+INSERT INTO `d_tourist` VALUES (2, '李四', '男', '18034265798', 1);
+INSERT INTO `d_tourist` VALUES (3, '高圆圆', '女', '17756452845', 1);
+INSERT INTO `d_tourist` VALUES (4, '徐丽', '女', '17346594970', 5);
+INSERT INTO `d_tourist` VALUES (5, '董丽丽', '女', '16548745648', 6);
+INSERT INTO `d_tourist` VALUES (6, '赵刚', '男', '15648974564', 2);
+INSERT INTO `d_tourist` VALUES (7, '陈驰', '男', '16548989798', 3);
+INSERT INTO `d_tourist` VALUES (8, '董事栈', '男', '18854956628', 4);
+INSERT INTO `d_tourist` VALUES (9, '徐三', '男', '17625595805', 9);
+INSERT INTO `d_tourist` VALUES (10, '董江', '女', '18798456165', 8);

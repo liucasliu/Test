@@ -1,0 +1,51 @@
+	在src/com.xuan.util中
+	把 String password的值改成你们自己的数据库root权限密码
+	建立数据库datebaseswork
+	create database datebaseswork;//mysql专属
+	游客表
+	Create table d_tourist(
+            touristId int(8) primary key auto_increment,#游客编号
+            touristName varchar(50) not null ,		     #游客名称
+            sex	varchar(8) not null ,			     #游客性别
+            phoneNumber    int(15) not null,		     #联系电话
+	    routeId   int(8)   #路线编号,默认为0
+        )
+        auto_increment,自增序列  i++
+        在插入时,如果不给定具体的编号,此时根据具体的值来递增添加
+	导游表
+	Create table d_guide(
+            guideId int(8) primary key auto_increment,  #导游编号
+            guideName varchar(50) not null ,	     #导游名称
+            sex	varchar(8) not null,		     #导游性别
+            language   varchar(50) not null,	     #掌握语言
+	    routeId   int(8)   #路线编号,默认为0
+        )
+	线路表
+	Create table d_route(
+            routeId int(8) primary key auto_increment,  #线路编号
+            route varchar(50) not null,		     #线路内容
+            data	varchar(50) not null,	     #线路时间
+            money     int(8) not null,		     #花费金钱
+	    guideId   int(8)		     #导游编号,默认为0
+        )
+	特价线路表
+	Create table d_tjroute(
+            tjrouteId int(8) primary key auto_increment,  #特价线路编号
+            tjroute varchar(50) not null,		     #特价线路内容
+            data	varchar(50) not null,	     #优惠时间
+            money     int(8) not null		     #花费金钱
+        )
+	用户表
+	Create table d_user(
+            UserName varchar(50) not null,  #用户名
+	    PassWord varchar(50) not null,  #密码
+	    jurisdiction varchar(50) not null #权限 
+        )
+	     
+	 回访评价表
+        Create table d_evaluation(
+            guideId int(8) not null,  #导游编号
+	    good int(8),  #好评
+	    medium int(8), #中评
+	    bad  int(8) #差评
+        )

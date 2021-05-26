@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>评价</title>
+</head>
+<body>
+    <center>
+        <form action="/myWeb/evaluation" method="get">
+            <table border="2">
+                <tr>
+                    <td>导游编号</td>
+                    <td><input type="text" name="guideId" /></td>
+                </tr>
+                <tr>
+                    <td>评价</td>
+                    <td><input type="radio" name="evaluation" value="good" />好
+                        <input type="radio" name="evaluation" value="medium" />中
+                        <input type="radio" name="evaluation" value="bad" />坏
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="提交" /></td>
+                    <td><input type="reset" value="重置" /></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

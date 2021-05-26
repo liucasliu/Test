@@ -1,0 +1,10 @@
+INSERT INTO `d_evaluation` VALUES (1, 2, 2, 1);
+INSERT INTO `d_evaluation` VALUES (2, 3, 4, 5);
+INSERT INTO `d_evaluation` VALUES (3, 55, 24, 1);
+INSERT INTO `d_evaluation` VALUES (4, 12, 21, 3);
+INSERT INTO `d_evaluation` VALUES (5, 123, 23, 11);
+INSERT INTO `d_evaluation` VALUES (6, 22, 1, 6);
+INSERT INTO `d_evaluation` VALUES (7, 1, 0, 0);
+INSERT INTO `d_evaluation` VALUES (8, 3, 4, 6);
+INSERT INTO `d_evaluation` VALUES (9, 5, 6, 5);
+INSERT INTO `d_evaluation` VALUES (10, 8, 7, 9);
